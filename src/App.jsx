@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import profile from "./assets/rutuja.jpeg";
 
 function App() {
   const words = ["Web Developer", "Frontend Developer", "JavaScript Programmer"];
