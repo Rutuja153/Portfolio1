@@ -411,7 +411,7 @@ function App() {
         </div>
         <div className="right">
           <div className="profile-img-wrapper">
-            <img src="/rutuja.jpeg" alt="Rutuja Shinde" onError={(e) => { e.target.src = "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=360&h=360&q=80" }} />
+            <img src={profile} alt="Rutuja Shinde" onError={(e) => { e.target.src = "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=360&h=360&q=80" }} />
           </div>
         </div>
       </section>
